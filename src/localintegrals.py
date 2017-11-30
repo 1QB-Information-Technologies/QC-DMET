@@ -18,9 +18,8 @@
 '''
 
 import qcdmet_paths
-from pyscf import gto, scf, ao2mo, tools, future
-from pyscf.future import lo
-from pyscf.future.lo import nao, orth
+from pyscf import gto, scf, ao2mo, tools
+from pyscf.lo import nao, orth
 from pyscf.tools import molden, localizer
 import rhf
 import iao_helper
